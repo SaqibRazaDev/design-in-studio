@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .con{
+        @apply px-4 md:px-6 lg:px-8
+    }
+
+    .heading-hg {
+        @apply text-6xl font-black;
+    }
+
+    .heading-xl {
+        @apply text-5xl font-extrabold text-white;
+    }
+
+    .heading-lg {
+        @apply text-3xl font-bold text-gray-100;
+    }
+
+    .heading-md {
+        @apply text-xl font-bold text-gray-100;
+    }
+
+    .heading-sm {
+        @apply text-base font-bold text-gray-100;
+    }
+
+    .heading-xs {
+        @apply text-sm font-bold text-gray-100;
+    }
+
+    .para-lg {
+        @apply text-xl font-normal text-gray-200;
+    }
+
+    .para-md {
+        @apply text-base font-normal text-gray-100;
+    }
+
+    .para-sm {
+        @apply text-sm font-normal text-gray-200;
+    }
+
+    .para-xs {
+        @apply text-xs font-normal text-gray-200;
+    }
+
+
+}
+
+body{
+    @apply text-white bg-blue-950
+}
+
