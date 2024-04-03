@@ -40,8 +40,8 @@ function HeaderMain() {
                         />
                     </div>
                 </div>
-                <div className="text-center mt-6">
-                    Turn your ideas into outstanding designs with high quality vectors, photos, videos, mockups and many more.
+                <div className="flex justify-center">
+                    <p className="tag-line">Turn your ideas into outstanding designs with high quality vectors, photos, videos, mockups and many more.</p>
                 </div>
                 <div className="flex items-center">
                     <SearchBar />

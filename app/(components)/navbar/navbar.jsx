@@ -20,11 +20,11 @@ function Navbar() {
                         </Link>
                     </div>
                     <div className="nav flex gap-8 items-center">
-                        <Link href="/assets" className='text-lg font-medium'>Assets</Link>
-                        <Link href="/ai-tools" className='text-lg font-medium'>Ai Tools</Link>
-                        <Link href="/photos" className='text-lg font-medium'>Photos</Link>
-                        <Link href="/videos" className='text-lg font-medium'>Videos</Link>
-                        <Link href="/hire" className='text-lg font-medium'>Hire Us</Link>
+                        <Link href="/assets" className='nav-link'>Assets</Link>
+                        <Link href="/ai-tools" className='nav-link'>Ai Tools</Link>
+                        <Link href="/photos" className='nav-link'>Photos</Link>
+                        <Link href="/videos" className='nav-link'>Videos</Link>
+                        <Link href="/hire" className='nav-link'>Hire Us</Link>
                     </div>
 
                 </div>

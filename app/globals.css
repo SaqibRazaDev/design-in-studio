@@ -3,8 +3,10 @@
 @tailwind utilities;
 
 @layer components {
-    .con{
-        @apply px-4 md:px-6 lg:px-8
+
+
+    body {
+        @apply text-white bg-blue-950
     }
 
     .heading-hg {
@@ -47,10 +49,42 @@
         @apply text-xs font-normal text-gray-200;
     }
 
+    .con {
+        @apply px-4 md:px-6 lg:px-8
+    }
+
+    .tag-line {
+        @apply text-center text-lg font-medium mt-6 max-w-3xl
+    }
+
+    .nav-link {
+        @apply text-lg font-medium
+    }
+
 
 }
 
-body{
-    @apply text-white bg-blue-950
+/* Layer Directive End... */
+/* Layer Directive End... */
+
+
+.nav-link {
+    position: relative;
 }
 
+.nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #ffffff;
+    /* Change this to your desired underline color */
+    transition: width 0.3s ease-in-out;
+    /* Adjust transition duration as needed */
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
