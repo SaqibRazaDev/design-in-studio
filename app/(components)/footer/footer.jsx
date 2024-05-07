@@ -14,7 +14,7 @@ function Footer() {
 
 
             <div
-                className="con bg-cover py-8 flex flex-col"
+                className="con bg-cover py-8 flex flex-col w-full"
                 style={{ backgroundImage: "url('../../assets/footer/footer-bg.svg')" }}
             >
 

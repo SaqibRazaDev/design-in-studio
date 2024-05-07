@@ -6,15 +6,18 @@
 
 
     body {
-        @apply text-white bg-blue-950
+        @apply text-white bg-[#01094D]  
+    }
+    xyz {
+        @apply flex flex-col items-center justify-center
     }
 
     .heading-hg {
-        @apply text-6xl font-black;
+        @apply text-xl sm:text-4xl md:text-5xl xl:text-6xl  font-black;
     }
 
     .heading-xl {
-        @apply text-5xl font-extrabold text-white;
+        @apply text-3xl sm:text-3xl md:text-4xl xl:text-5xl font-extrabold text-white;
     }
 
     .heading-lg {
@@ -30,7 +33,7 @@
     }
 
     .heading-xs {
-        @apply text-sm font-bold text-gray-100;
+        @apply text-xs sm:text-sm md:text-base lg:text-xl md:font-bold;
     }
 
     .para-lg {
@@ -50,11 +53,11 @@
     }
 
     .con {
-        @apply px-4 md:px-6 lg:px-8
+        @apply px-4 md:px-6 lg:px-16
     }
 
     .tag-line {
-        @apply text-center text-lg font-medium mt-6 max-w-3xl
+        @apply text-center font-medium mt-1 md:mt-4 lg:mt-5 max-w-md md:max-w-2xl lg:max-w-3xl
     }
 
     .nav-link {
@@ -67,7 +70,18 @@
 /* Layer Directive End... */
 /* Layer Directive End... */
 
+.con::-webkit-scrollbar {
+    display: none;
+}
 
+.out-line-span{
+    color: #010749; /* Text color */
+    text-shadow: 
+        -1px -1px 0 #fff,  
+        1px -1px 0 #fff,
+        -1px 1px 0 #fff,
+        1px 1px 0 #fff; /* Shadow with offsets to create outline effect */
+}
 .nav-link {
     position: relative;
 }
@@ -79,7 +93,7 @@
     left: 0;
     width: 0;
     height: 2px;
-    background-color: #ffffff;
+    background-color:#FAD007;
     /* Change this to your desired underline color */
     transition: width 0.3s ease-in-out;
     /* Adjust transition duration as needed */
