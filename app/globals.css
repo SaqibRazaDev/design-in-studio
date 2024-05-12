@@ -61,7 +61,11 @@
     }
 
     .nav-link {
-        @apply text-lg font-medium
+        @apply  text-base md:text-lg font-medium
+    }
+
+    .nav-link-b {
+        @apply text-sm font-normal xl:font-semibold mx-3 lg:mx-0
     }
 
 
@@ -102,3 +106,7 @@
 .nav-link:hover::after {
     width: 100%;
 }
+.nav-link-b:hover {
+    color: #FAD007;
+}
+
