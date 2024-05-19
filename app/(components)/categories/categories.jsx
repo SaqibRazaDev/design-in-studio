@@ -8,7 +8,7 @@ import Templates from '../../../public/assets/category-section/templates.svg'
 
 function Categories() {
     return (
-        <div className="con grid grid-rows-2 grid-flow-col md:grid-rows-1 items-start gap-x-4 overflow-x-auto">
+        <div className="con flex flex-row justify-between items-start gap-x-4 overflow-x-auto">
 
             <CategoryCard
                 url="/photos"
@@ -20,7 +20,7 @@ function Categories() {
                 bg={Videos}
                 title="Videos"
             />
-                        <CategoryCard
+            <CategoryCard
                 url="/"
                 bg={Vector}
                 title="Vectors"
@@ -29,11 +29,6 @@ function Categories() {
                 url="/"
                 bg={PSD}
                 title="PSD"
-            />
-            <CategoryCard
-                url="/"
-                bg={Photos}
-                title="Illustrations"
             />
             <CategoryCard
                 url="/"

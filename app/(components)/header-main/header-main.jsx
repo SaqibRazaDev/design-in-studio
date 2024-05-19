@@ -44,7 +44,7 @@ function HeaderMain() {
                     <p className="tag-line heading-xs">Turn your ideas into outstanding designs with high quality vectors, photos, videos, mockups and many more.</p>
                 </div>
 
-                <div className="flex my-12 justify-center">
+                <div className="flex my-8 lg:my-12 justify-center">
                     <SearchBar />
                 </div>
 
