@@ -107,3 +107,7 @@
 .nav-link-b:hover {
     color: #fad007;
 }
+
+.blue-bg{
+    background-image: url(../public/assets/portfolio-section/blue-bg.svg);
+}

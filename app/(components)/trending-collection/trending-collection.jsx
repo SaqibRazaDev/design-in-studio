@@ -17,7 +17,7 @@ function TrendingCollection() {
       <div className="py-6">
 
 
-        <div className="con text-center my-8">
+        <div className="con my-12 ">
           <p className="heading-lg my-4">Trending Collections to Boost <span className='text-[#FAD007]'> Your Ideas.</span></p>
           <p className="heading-xs font-normal">Explore Design Inn Trendiest Collections and Find the Perfect Visual.</p>
         </div>
