@@ -8,7 +8,7 @@ function TrendingCard(props) {
 
 
             <div className="flex flex-col">
-                <div className="trnd w-40 h-48 xl:w-[392px] xl:h-[450px] border-2 xl:border-4 flex gap-[2px] xl:gap-1 bg-white hover:shrink">
+                <div className="trnd w-40 h-48 md:w-56 md:h-64 xl:w-[392px] xl:h-[450px] border-2 xl:border-4 flex gap-[2px] xl:gap-1 bg-white hover:shrink">
                     <div className="w-1/2 h-full ">
                         {/* Image A */}
 
